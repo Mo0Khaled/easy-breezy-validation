@@ -8,9 +8,9 @@ part of 'package:validator/validator.dart';
 /// the name must be higher than 2 chars
 /// ``` dart
 /// isName("muhamed") == true
-/// isNmae("mo khaled") == false
+/// isName("mo khaled") == false
 /// ```
-bool isName(String name){
+bool isName(String name) {
   final nameRegex = RegExp(r"^([a-zA-Z]{2,})$");
-return nameRegex.hasMatch(name);
+  return nameRegex.hasMatch(name);
 }
