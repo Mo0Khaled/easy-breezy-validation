@@ -3,6 +3,7 @@ a simple pure dart text validation to validate your needs
 ## Features
 
 - **⚡️ Pure Dart:** Build Flexible without any flutter code
+- **🧷️ Documented:** each rule have a code documentation
 
 ## Usage
 
@@ -17,7 +18,7 @@ validator:  isEmailValid ? null : "please enter a valid Email",
 ` Example 2 `
 ```dart
 /// true or false
-var isMyFullNameValid = isFullNAME("Muhammed Khaled");
+var isMyFullNameValid = isFullName("Muhammed Khaled");
 String? gimmeMyNameOrNull(){
   if(isMyFullNameValid){
     return "Muhammed Khaled";
@@ -25,6 +26,15 @@ String? gimmeMyNameOrNull(){
     return null;
   }
 }
+```
+## Current Rules
+
+```dart
+var isEmailValid = isEmail("mohamedkx77@gmail.com");
+var isFullNameValid = isFullName("Muhammed Khaled");
+var isNameValid = isName("Muhammed");
+var isDateOfBirthValid = isDateOfBirth("1999/01/11");
+var isEgyptianPhoneValid = isDateOfBirth("01112345678");
 ```
 
 ## Additional information
