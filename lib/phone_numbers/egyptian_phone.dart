@@ -1,4 +1,4 @@
-part of 'package:validator/validator.dart';
+part of 'package:easy_breezy_validator/validator.dart';
 /// This function validate the egyptian phone number.
 ///
 /// it takes [phoneNumber] to validate and

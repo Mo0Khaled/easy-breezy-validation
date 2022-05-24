@@ -1,4 +1,4 @@
-part of 'package:validator/validator.dart';
+part of 'package:easy_breezy_validator/validator.dart';
 
 /// validate the full name [first] and [last] name
 ///
