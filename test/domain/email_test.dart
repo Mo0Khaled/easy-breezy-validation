@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:validator/validator.dart';
+import 'package:easy_breezy_validator/validator.dart';
 
 void main() {
   group("valid tests", () {

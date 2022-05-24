@@ -1,4 +1,4 @@
-part of 'package:validator/validator.dart';
+part of 'package:easy_breezy_validator/validator.dart';
 /// checks if is valid email or not
 ///
 /// it takes [email] of type string to validate
